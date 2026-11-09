@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Balaji Muppuri — Computer Science graduate building skills in data engineering, Python, SQL and analytics.">
+  <title>Balaji Muppuri | Aspiring Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header: compact navigation with a mobile-friendly menu. -->
+  <header class="header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="logo-word" href="#home">BALAJI<span>.</span></a>
+      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+        <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero: the target role is presented as an aspiration, not existing employment. -->
+    <section class="hero" id="home">
+      <div class="wrap hero-layout">
+        <div class="hero-content">
+          <div class="availability"><i></i> OPEN TO ENTRY-LEVEL OPPORTUNITIES</div>
+          <p class="overline">HELLO, I'M</p>
+          <h1>Balaji<br><span>Muppuri.</span></h1>
+          <h2>Aspiring Data Engineer <b>·</b> CSE Graduate</h2>
+          <p class="intro">I enjoy working with data — from cleaning and validating datasets to analysing information and building dashboards. I’m strengthening my foundations in Python, SQL and data workflows as I work towards a career in data engineering.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">Explore projects <span>↗</span></a>
+            <a class="btn btn-outline" href="assets/Balaji_Muppuri_Resume.pdf" download>Download résumé <span>↓</span></a>
+          </div>
+          <!-- Social links use the exact profile URLs supplied by Balaji. -->
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/balaji-muppuri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM3.4 9.5H7v11H3.4v-11Zm5.8 0h3.4V11h.1c.5-.9 1.7-1.9 3.5-1.9 3.7 0 4.4 2.4 4.4 5.5v5.9H17v-5.2c0-1.2 0-2.8-1.8-2.8s-2.1 1.3-2.1 2.7v5.3H9.2v-11Z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/Balaji-Muppuri" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.2.8-.6v-2.1c-3.3.7-4-1.4-4-1.4-.5-1.3-1.2-1.6-1.2-1.6-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.4.3.8 1 .8 2v3c0 .4.2.7.8.6A11.1 11.1 0 0 0 12 .9Z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="mailto:balajimuppuri7@gmail.com" aria-label="Send email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm9 8L4 7v10h16V7l-8 6Zm0-2 7-4H5l7 4Z"/></svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Profile panel provides a concise recruiter snapshot. -->
+        <aside class="profile-panel">
+          <div class="panel-head"><span>PROFILE SNAPSHOT</span><span class="live-dot"></span></div>
+          <div class="avatar">BM</div>
+          <p class="panel-role">COMPUTER SCIENCE & ENGINEERING</p>
+          <h3>Data, systems<br>& meaningful insights.</h3>
+          <p class="panel-copy">Based in Visakhapatnam, Andhra Pradesh, India.</p>
+          <div class="metrics">
+            <div><strong>8.46</strong><small>B.Tech CGPA / 10</small></div>
+            <div><strong>2025–26</strong><small>Internship & projects</small></div>
+          </div>
+          <div class="panel-footer"><span>Python</span><span>SQL</span><span>PostgreSQL</span></div>
+        </aside>
+      </div>
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+    </section>
+
+    <!-- About section is based on the profile summary in the supplied latest résumé. -->
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div><p class="section-kicker">01 / ABOUT ME</p><h2 class="section-heading">Turning raw data<br><em>into useful insights.</em></h2></div>
+        <div class="about-text">
+          <p>I’m a recent B.Tech graduate in Computer Science and Engineering from Raghu Institute of Technology. I have hands-on experience with Python, SQL, Power BI and Excel through a Data Analyst internship and academic projects.</p>
+          <p>My experience includes data cleaning, validation, data quality checks, analysis, transformation and dashboard development. I’m now focused on expanding these foundations towards data engineering and building dependable data workflows.</p>
+          <a class="inline-link" href="assets/Balaji_Muppuri_Resume.pdf" download>View résumé <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills: recognizable technology marks are paired with text labels for accessibility. -->
+    <section class="section section-dark" id="skills">
+      <div class="wrap">
+        <p class="section-kicker">02 / TECHNICAL TOOLKIT</p>
+        <h2 class="section-heading">Tools I work with<span class="accent">.</span></h2>
+        <p class="section-lead">A snapshot of the tools and capabilities listed in my résumé.</p>
+        <div class="tech-grid">
+          <article class="tech-card"><div class="tech-logo python-logo">Py</div><h3>Python</h3><p>Programming · Pandas · NumPy</p></article>
+          <article class="tech-card"><div class="tech-logo sql-logo">SQL</div><h3>SQL & PostgreSQL</h3><p>Querying · Relational databases</p></article>
+          <article class="tech-card"><div class="tech-logo powerbi-logo"><i></i><i></i><i></i></div><h3>Power BI</h3><p>DAX · Power Query · KPI tracking</p></article>
+          <article class="tech-card"><div class="tech-logo excel-logo">X</div><h3>Excel</h3><p>Data handling · Reporting</p></article>
+          <article class="tech-card"><div class="tech-logo tableau-logo">T</div><h3>Tableau</h3><p>Data visualization</p></article>
+          <article class="tech-card"><div class="tech-logo github-logo">GH</div><h3>GitHub & VS Code</h3><p>Development tools · Version control</p></article>
+        </div>
+        <div class="skill-strip"><span>DATA CLEANING</span><span>DATA VALIDATION</span><span>DATA QUALITY</span><span>DATA TRANSFORMATION</span><span>DATA ANALYSIS</span><span>DASHBOARD DEVELOPMENT</span></div>
+      </div>
+    </section>
+
+    <!-- Internship: role, employer, location, dates and bullets follow the supplied résumé. -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <p class="section-kicker">03 / EXPERIENCE</p>
+        <h2 class="section-heading">Professional experience<span class="accent">.</span></h2>
+        <article class="experience-card">
+          <div class="experience-top"><div><span class="tagline">INTERNSHIP</span><h3>Data Analyst Intern</h3><p class="employer">PillionPal <span>·</span> Visakhapatnam, India</p></div><time>May 2025 – Nov 2025</time></div>
+          <div class="experience-rule"></div>
+          <ul>
+            <li>Cleaned and validated datasets using Python and Excel to improve data accuracy.</li>
+            <li>Analysed datasets using SQL and Python to identify meaningful patterns.</li>
+            <li>Developed interactive Power BI dashboards to communicate analytical findings.</li>
+            <li>Performed data quality checks and automated repetitive validation tasks.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Project summaries are based on the résumé; direct repository links were supplied by the owner. -->
+    <section class="section section-dark" id="projects">
+      <div class="wrap">
+        <p class="section-kicker">04 / SELECTED PROJECTS</p>
+        <h2 class="section-heading">Things I’ve built<span class="accent">.</span></h2>
+        <p class="section-lead">Explore the project summaries and open each project’s source repository directly.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-top"><span>PROJECT 01</span><div class="project-icon">HR</div></div>
+            <h3>ManagePro</h3><p class="project-type">Centralized Human Resource Management System</p>
+            <p>Developed a centralized HRMS to manage employee information and HR operations.</p>
+            <ul><li>Employee, attendance, leave and payroll modules</li><li>JWT-based authentication and role-based access control</li><li>Backend services and email notification integration</li></ul>
+            <div class="project-tags"><span>HRMS</span><span>JWT</span><span>RBAC</span><span>Backend</span></div>
+            <a class="project-link" href="https://github.com/Balaji-Muppuri/ManagePro" target="_blank" rel="noopener noreferrer">View ManagePro repository <b>↗</b></a>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span>PROJECT 02</span><div class="project-icon chart-icon">▥</div></div>
+            <h3>IPL Analysis Dashboard</h3><p class="project-type">Power BI · IPL seasons 2008–2022</p>
+            <p>Designed and deployed an interactive dashboard analysing IPL data, player performance and team trends.</p>
+            <ul><li>Integrated and cleaned data from multiple sources</li><li>Transformed data using Power Query and Python</li><li>Built DAX measures, KPIs, slicers and drill-throughs</li></ul>
+            <div class="project-tags"><span>Power BI</span><span>DAX</span><span>Python</span><span>Power Query</span></div>
+            <a class="project-link" href="https://github.com/Balaji-Muppuri/IPL-ANALYSIS" target="_blank" rel="noopener noreferrer">View IPL Analysis repository <b>↗</b></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education and certifications are transcribed from the latest résumé. -->
+    <section class="section" id="education">
+      <div class="wrap">
+        <p class="section-kicker">05 / EDUCATION & CERTIFICATIONS</p>
+        <h2 class="section-heading">Learning foundation<span class="accent">.</span></h2>
+        <div class="education-grid">
+          <article class="education-card"><span class="edu-date">2022 – 2026</span><div class="edu-mark">B.Tech</div><h3>Bachelor of Technology</h3><p>Computer Science and Engineering</p><strong>Raghu Institute of Technology</strong><small>Visakhapatnam · CGPA 8.46 / 10</small></article>
+          <article class="education-card"><span class="edu-date">2020 – 2022</span><div class="edu-mark">MPC</div><h3>Intermediate</h3><p>Mathematics, Physics and Chemistry</p><strong>Krishna Chaitanya Junior College</strong><small>Kanigiri · CGPA 8.7 / 10</small></article>
+        </div>
+        <h3 class="cert-heading">Certifications & recognition</h3>
+        <div class="certifications">
+          <div><span class="cert-logo ibm">IBM</span><p><strong>Python Basics for Data Science</strong><small>IBM (edX)</small></p></div>
+          <div><span class="cert-logo power">PBI</span><p><strong>Power BI Micro Course</strong><small>Skill Course</small></p></div>
+          <div><span class="cert-logo ey">EY</span><p><strong>EY Techathon 6.0</strong><small>Certificate of Participation · Round 2: Detailed Presentation</small></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section includes direct profile and email links. -->
+    <section class="contact-section" id="contact">
+      <div class="wrap contact-inner">
+        <p class="section-kicker">06 / LET’S CONNECT</p>
+        <h2>Have an opportunity<br>or a project in mind<span>?</span></h2>
+        <p>I’m interested in entry-level opportunities where I can learn, contribute and grow in data engineering and analytics.</p>
+        <a class="btn btn-primary" href="mailto:balajimuppuri7@gmail.com">Contact me <span>↗</span></a>
+        <div class="contact-details">
+          <a href="mailto:balajimuppuri7@gmail.com">balajimuppuri7@gmail.com</a>
+          <a href="tel:+919948410259">+91 9948410259</a>
+          <a href="https://www.linkedin.com/in/balaji-muppuri/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/Balaji-Muppuri" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+        <p class="location-line">Visakhapatnam, Andhra Pradesh, India</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer year is populated by JavaScript so it stays current. -->
+  <footer class="footer"><div class="wrap"><span>© <span id="year"></span> Balaji Muppuri</span><span>Built with purpose · HTML, CSS & JavaScript</span><a href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
